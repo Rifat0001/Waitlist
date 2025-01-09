@@ -67,3 +67,7 @@
     text-decoration-skip-ink: none;
 
 }
+
+.fourth-content-mobile{
+    display: none;
+}

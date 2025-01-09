@@ -144,7 +144,7 @@
 .third-b-text{
     width: 1050px;
     position: absolute;
-    top: 200%;
+    top: 170%;
 }
 
 .third-b-text p{
@@ -184,3 +184,8 @@ text-decoration-skip-ink: none;
     bottom: 0%;
     z-index: 2;
 }
+
+.third-mobile-text{
+   display: none;
+}
+

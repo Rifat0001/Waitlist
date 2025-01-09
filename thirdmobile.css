@@ -79,7 +79,7 @@
 }
 .guidetitle2 {
     position: absolute;
-    top: 10vh;
+    top: 11.5vh;
     color: #A38366;
     z-index: 1;
     font-family: Inter;
@@ -93,7 +93,7 @@
 
 .guideout2 {
     position: absolute;
-    top: 1vh;
+    top: 11.5vh;
     color: transparent;
     -webkit-text-stroke: 1.5px #A38366;
     z-index: 3;
@@ -118,7 +118,7 @@
 
 .third-desc-box{
     position: absolute;
-    top: 130%;
+    top: 19vh;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -126,9 +126,9 @@
 
 .desc-left p{
     font-family: Inria Serif;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 27.58px;
+    line-height: 14px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -136,9 +136,9 @@
 }
 .desc-right p{
     font-family: Inria Serif;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 27.58px;
+    line-height: 14px;
     text-align: right;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -146,21 +146,44 @@
 }
 
 .third-b-text{
-    width: 1050px;
+    width: 370px;
     position: absolute;
-    top: 200%;
+    top: 12vh;
 }
 
+.third-mobile-text{
+    width: 370px;
+    display: block;
+    position: absolute;
+    top: 31vh;
+}
+.third-mobile-text p{
+    margin-top: 10px;
+    font-family: Hanken Grotesk;
+    color: #A48466;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+
+}
 .third-b-text p{
     font-family: Hanken Grotesk;
     color: #A48466;
-font-size: 18px;
+font-size: 14px;
 font-weight: 500;
-line-height: 25px;
+line-height: 18px;
 text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 
+}
+
+.third-b-text{
+    display: none;
+}
+
+
+.third-b-mobile p{
+    color: white;
 }
 
 .readmore {
