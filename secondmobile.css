@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+    /* second section  */
+
+.big-image {
+    width: 93px;
+    height: 170px;
+    z-index: 1;
+    border-radius: 17px;
+}
+
+.small-image {
+    width: 93px;
+    height: 134px;
+    border-radius: 17px;
+}
+
+.second-section-outer {
+    position: relative;
+}
+
+.second-section-images {
+    display: flex;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.second-section-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 4;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.waitlist {
+    font-family: Inter;
+    z-index: 8;
+    font-size: 65px;
+    font-weight: 600;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: transparent;
+    -webkit-text-stroke: 1.5px white;
+}
+
+.second-form-outer {
+    background: linear-gradient(180deg, #522425 0%, #B82424 100%);
+    position: absolute;
+    top: 150%;
+    width: 90%;
+    height: 287px;
+    margin: 0 auto;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px 8px rgba(82, 36, 37, 0.3),
+        /* Darker shade with more spread */
+        0 0 25px 12px rgba(184, 36, 36, 0.3);
+    /* Lighter shade with more spread */
+    align-items: center;
+}
+
+.second-form {
+    background: #000000;
+    width: 99%;
+    height: 281px;
+    gap: 0px;
+    padding: 10px;
+    border-radius: 44px;
+    border: 3px solid transparent;
+    border-image-slice: 1;
+    /* Ensure the gradient spans the entire border */
+}
+
+
+.sign-up {
+    font-family: 'Bungee', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 46.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.s-c {
+    font-family: inter;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+label{
+    font-size: 14px;
+}
+
+.name-input-box {
+    background: linear-gradient(180deg, #000000 0%, #2E2B2B 49.51%, #000000 100%);
+    border: 1px solid #7C5353;
+    padding: 5px;
+    width: 230px;
+    color: #9A9A9A;
+    border-radius: 5px;
+}
+
+.email-input-box {
+    background: linear-gradient(180deg, #000000 0%, #2E2B2B 49.51%, #000000 100%);
+    border: 1px solid #7C5353;
+    padding: 5px;
+    width: 260px;
+    color: #9A9A9A;
+    border-radius: 5px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+}

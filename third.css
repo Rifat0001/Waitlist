@@ -1,0 +1,186 @@
+/* third section start  */
+.third-out {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.third-section-outer {
+    background-image: url(image/redbg.png);
+    position: relative;
+    width: 1147px;
+    height: 740px;
+    border-radius: 36px;
+
+}
+
+.third-content {
+    position: absolute;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 4;
+    width: 100%;
+}
+.vision {
+    font-family: 'Inter', sans-serif;
+    font-size: 325px;
+    font-weight: 800;
+    line-height: 323px;
+    text-align: center;
+    text-underline-position: under;
+    /* Adjusts underline position */
+    text-decoration-skip-ink: auto;
+    /* Ensures ink skips properly around underlined text */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, #4E4E4E 80%);
+    -webkit-background-clip: text;
+    /* Clips background to text (Webkit browsers) */
+    background-clip: text;
+    /* Standard property for clipping */
+    color: transparent;
+    /* Makes text transparent to show gradient */
+}
+
+.guidetitle {
+    position: absolute;
+    top: 100%;
+    color: white;
+    z-index: 1;
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 79.88px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.guideout {
+    position: absolute;
+    top: 100%;
+    color: transparent;
+    -webkit-text-stroke: 1.5px white;
+    z-index: 3;
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 79.88px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.guidetitle2 {
+    position: absolute;
+    top: 120%;
+    color: #A38366;
+    z-index: 1;
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 79.88px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.guideout2 {
+    position: absolute;
+    top: 120%;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #A38366;
+    z-index: 3;
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 79.88px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.main-figure {
+    position:absolute;
+    top: 20%;
+    z-index: 2;
+}
+
+.third-desc-box{
+    position: absolute;
+    top: 130%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-left p{
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.58px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.desc-right p{
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.58px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.third-b-text{
+    width: 1050px;
+    position: absolute;
+    top: 200%;
+}
+
+.third-b-text p{
+    font-family: Hanken Grotesk;
+    color: #A48466;
+font-size: 18px;
+font-weight: 500;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.readmore {
+    background: linear-gradient(180deg, #F77878 -36%, #761616 104%);
+    color: #FFFFFF; /* Text color for readability */
+    font-size: 16px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 30px;
+    border: 1px solid #761616;
+    cursor: pointer;
+}
+
+.gradient-hov{
+    position: absolute;
+    right: 0%;
+    height: 500px;
+    top: 40%;
+    z-index: 2;
+}
+.gradient-hov1{
+    position: absolute;
+    left: 0%;
+    top: 120%;
+    bottom: 0%;
+    z-index: 2;
+}

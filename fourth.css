@@ -1,0 +1,69 @@
+.fourth-out {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.gradient-hov2{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: 2;
+}
+.gradient-hov3{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    z-index: 2;
+}
+
+.icon-outer {
+    width: 70px;
+    height: 65px;
+    top: 2282px;
+    left: 263px;
+    gap: 0px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0px;
+    background: linear-gradient(179.88deg, #8F3705 0.11%, #291002 130.09%);
+    border: 1.5px solid #FF6217
+}
+
+.icon-outer img {
+    width: 38px;
+    height: 38px;
+}
+
+.fourth-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.footer p {
+    font-family: Atkinson Hyperlegible;
+    margin: 30px ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
