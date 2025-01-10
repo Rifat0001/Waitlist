@@ -46,10 +46,10 @@
       TO SHAPE<br />
       THE FUTURE<br />
       OF SOCIAL MEDIA</div>
-      <div class="desc-beginning">
-        <p>Experience the future of social media: all your favorite platforms combined, featuring innovative tools you’ve
-          never seen before and real opportunities to earn. Modern, powerful, and designed for the future.</p>
-      </div>
+    <div class="desc-beginning">
+      <p>Experience the future of social media: all your favorite platforms combined, featuring innovative tools you’ve
+        never seen before and real opportunities to earn. Modern, powerful, and designed for the future.</p>
+    </div>
   </div>
   <!-- first section end  -->
 
@@ -64,11 +64,11 @@
     <div class="gradient-hov">
       <img src="image/grad1.png" alt="">
     </div>
-    
+
     <div class="gradient-hov1">
       <img src="image/left.png" alt="">
     </div>
- 
+
     <div class="second-section-content">
       <div class="second-text">
         <p class="waitlist">Waitlist</p>
@@ -79,19 +79,31 @@
           <p class="s-c">Subscribe to get notified as soon as the beta is available.</p>
           <div class="form-box">
             <label for="name">Enter your name:</label>
-
-            <input type="text" placeholder="Enter your name" class="name-input-box" name="" id="">
-            <label for="name">Enter your email:</label>
-            <input type="text" placeholder="Enter your email" class="email-input-box" name="" id="">
-
-
+            <input type="text" placeholder="Enter your name" class="name-input-box" name="name" id="name">
+        
+            <label for="email">Enter your email:</label>
+            <input type="email" placeholder="Enter your email" class="email-input-box" name="email" id="email">
+        
             <div class="notify">
-              <div class="notify-inner">
-                <p>Notify Me</p>
-              </div>
+                <div class="notify-inner" id="notify-btn">
+                    <p>Notify Me</p>
+                </div>
             </div>
-
+        </div>
+        
+        <!-- Modal to display confirmation -->
+        <div class="modal" id="successModal">
+          <div class="modal-layer">
+            <div class="modal-content">
+              <!-- <span class="close-btn" >&times;</span> -->
+              <h1 class="m-h">Congratulations! </h1>
+              <p class="m-t">You’re officially on the list. We’ll notify you when it’s time to beta test, so be sure to keep an eye on your email for important updates and next steps</p>
+              <button class="m-close" id="closeModal">Close</button>
           </div>
+          </div>
+        </div>
+        
+<!-- clone  -->
         </div>
       </div>
     </div>
@@ -102,16 +114,16 @@
   <div class="third-out">
     <div class="third-section-outer">
       <div class="third-content">
-   
+
         <p class="vision">Vision</p>
         <div class="main-figure">
           <img src="image/penguine.png" alt="">
         </div>
         <div class="guidetitle">
-          Guiding Principles 
+          Guiding Principles
         </div>
         <div class="guideout">
-          Guiding Principles 
+          Guiding Principles
         </div>
         <div class="guidetitle2">
           for Every Project
@@ -132,20 +144,52 @@
             <p>Quality and <br>
               Excellence: Maintaining <br>
               superior standards in every <br>
-              design aspect to deliver unparalleled <br> 
+              design aspect to deliver unparalleled <br>
               results that exceed expectations.</p>
           </div>
-         <div class="third-b-text">
-          <p>We're thrilled to invite you to be among the first to experience our social media platform. Our beta testing phase is your chance to shape the future.  By spreading the word and standing with us, we can build something incredible together. <span class="readmore">Read more</span>  </p>
+          <div class="third-b-text">
+            <p>We're thrilled to invite you to be among the first to experience our social media platform. Our beta
+              testing phase is your chance to shape the future. By spreading the word and standing with us, we can build
+              something incredible together. <span class="readmore" onclick="toggleReadMore()">Read more</span> </p>
+          </div>
+
         </div>
-        
+        <div class="third-mobile-text">
+          <span class="readmore" onclick="toggleReadMore()">Read more</span>
+          <p>We're thrilled to invite you to be among the first to experience our social media platform. Our beta
+            testing phase is your chance to shape the future. By spreading the word and standing with us, we can build
+            something incredible together. </p>
+        </div>
+
       </div>
-      <div class="third-mobile-text">
-        <span class="readmore">Read more</span> 
-        <p>We're thrilled to invite you to be among the first to experience our social media platform. Our beta testing phase is your chance to shape the future.  By spreading the word and standing with us, we can build something incredible together.  </p>
+
+    </div>
+
+  </div>
+  <div class="read-me-me" id="read-me-div" style="display: none;">
+    <div class="read-more-border">
+      <div class="read-more-div">
+        <p>With platforms like TikTok facing bans or uncertainty, we recognize how deeply this impacts people.
+          Personally,
+          as the creator of this new social media platform, I have spent countless hours on TikTok myself—making videos,
+          some cringe-worthy but ultimately fun and worth it—experiencing firsthand how it became a home for so many.
+          The
+          idea of losing TikTok is heartbreaking. For countless individuals, creators, and businesses, this isn’t just
+          entertainment; it’s a livelihood, a community, and a way to connect. Many will see their ways to thrive wiped
+          away by changing rules and restrictions. But we can’t let that stop us. Instead, we must build something new—a
+          movement, a fresh start. For the past 2-3 years, we’ve been creating a platform that’s not just different but
+          meaningful. It’s new, and while we may not yet rival the giants, our vision is clear: to provide a place for
+          freedom, creativity, and growth. We may not have a big team or endless resources, and we are working hard to
+          launch as soon as possible. We appreciate your patience and support as we strive to bring this platform to
+          life.
+          This is more than just another social media platform. It’s a stand against censorship and a commitment to
+          empowering voices. Together, we can create something extraordinary. Your support means everything. By
+          spreading
+          the word and joining us, you’re helping us bring this vision to life. Built by a small, family-driven team,
+          this
+          is our answer to what the world has been waiting forsomething fresh, innovative, and truly free.</p>
       </div>
     </div>
-  </div> 
   </div>
   <!-- third section end -->
 
@@ -154,39 +198,39 @@
     <!-- for laptop  -->
     <div class="fourth-content">
       <!-- icon  -->
-       <div class="icon-outer">
+      <div class="icon-outer">
         <img src="image/x.png" alt="">
-       </div>
-       <div class="icon-outer">
+      </div>
+      <div class="icon-outer">
         <img src="image/i.png" alt="">
-       </div>
-       <p class="faq">Frequently asked Questions</p>
-       <div class="icon-outer">
+      </div>
+      <p class="faq">Frequently asked Questions</p>
+      <div class="icon-outer">
         <img src="image/t.png" alt="">
-       </div>
-       <div class="icon-outer">
+      </div>
+      <div class="icon-outer">
         <img src="image/s.png" alt="">
-       </div>
+      </div>
     </div>
     <!-- for mobile  -->
     <div class="fourth-content-mobile">
       <!-- icon  -->
-   <div class="fourth-icon">
-    <div class="icon-outer">
-      <img src="image/x.png" alt="">
-     </div>
-     <div class="icon-outer">
-      <img src="image/i.png" alt="">
-     </div>
-    
-     <div class="icon-outer">
-      <img src="image/t.png" alt="">
-     </div>
-     <div class="icon-outer">
-      <img src="image/s.png" alt="">
-     </div>
-   </div>
-   <p class="faq-m">Frequently asked Questions</p>
+      <div class="fourth-icon">
+        <div class="icon-outer">
+          <img src="image/x.png" alt="">
+        </div>
+        <div class="icon-outer">
+          <img src="image/i.png" alt="">
+        </div>
+
+        <div class="icon-outer">
+          <img src="image/t.png" alt="">
+        </div>
+        <div class="icon-outer">
+          <img src="image/s.png" alt="">
+        </div>
+      </div>
+      <p class="faq-m">Frequently asked Questions</p>
     </div>
     <div class="accord-div">
       <div class="accord-left">
@@ -206,7 +250,8 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>The beta testing phase will focus on the PC version, which will be released first. The mobile version will not be available during this phase but will be launched at a later time.</p>
+              <p>The beta testing phase will focus on the PC version, which will be released first. The mobile version
+                will not be available during this phase but will be launched at a later time.</p>
             </div>
           </div>
           <div class="accordion-item">
@@ -215,7 +260,9 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>Updates go to your subscription email. There are no official social accounts, but you can access links via the logo icons on this site or through the Linktree, which includes the Telegram. Telegram is best for updates and connecting with the community.</p>
+              <p>Updates go to your subscription email. There are no official social accounts, but you can access links
+                via the logo icons on this site or through the Linktree, which includes the Telegram. Telegram is best
+                for updates and connecting with the community.</p>
             </div>
           </div>
           <div class="accordion-item">
@@ -224,7 +271,9 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>Joining the beta testing program gives you exclusive access to new features and updates before they are released to the public. You can be among the first to experience and provide feedback on the latest developments.</p>
+              <p>Joining the beta testing program gives you exclusive access to new features and updates before they are
+                released to the public. You can be among the first to experience and provide feedback on the latest
+                developments.</p>
             </div>
           </div>
           <div class="accordion-item">
@@ -242,7 +291,9 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>Yes, you can refer others to join the waitlist! Simply share the link to the page with your friends, family, or colleagues, and encourage them to sign up. The more people you invite, the more excitement you'll help build around our upcoming launch.</p>
+              <p>Yes, you can refer others to join the waitlist! Simply share the link to the page with your friends,
+                family, or colleagues, and encourage them to sign up. The more people you invite, the more excitement
+                you'll help build around our upcoming launch.</p>
             </div>
           </div>
         </div>
@@ -255,7 +306,7 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>Post-beta, we will analyze the collected feedback, implement necessary changes, 
+              <p>Post-beta, we will analyze the collected feedback, implement necessary changes,
                 and prepare for the official release, ensuring a refined social media experience for all users.</p>
             </div>
           </div>
@@ -274,7 +325,8 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>Your feedback is invaluable to us. We will review all responses and suggestions to identify areas for improvement and to make necessary adjustments before the official launch.</p>
+              <p>Your feedback is invaluable to us. We will review all responses and suggestions to identify areas for
+                improvement and to make necessary adjustments before the official launch.</p>
             </div>
           </div>
           <div class="accordion-item">
@@ -283,7 +335,8 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>No, the beta program is completely free of charge. We invite everyone to participate and help us shape the future of social interaction without any financial commitment.</p>
+              <p>No, the beta program is completely free of charge. We invite everyone to participate and help us shape
+                the future of social interaction without any financial commitment.</p>
             </div>
           </div>
           <div class="accordion-item">
@@ -292,7 +345,8 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>Selection will be available for those who sign up for subscription notifications. Be ready to look out for emails when they are sent.</p>
+              <p>Selection will be available for those who sign up for subscription notifications. Be ready to look out
+                for emails when they are sent.</p>
             </div>
           </div>
           <div class="accordion-item">
@@ -301,14 +355,15 @@
               <span class="icon">+</span>
             </button>
             <div class="accordion-content">
-              <p>Absolutely! We will regularly update testers on new features, bug fixes, and improvements based on their feedback, ensuring an engaging and evolving testing experience.</p>
+              <p>Absolutely! We will regularly update testers on new features, bug fixes, and improvements based on
+                their feedback, ensuring an engaging and evolving testing experience.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="footer">
-      <p>© 2024  WaitlistSocial. All rights reserved.</p>
+      <p>© 2024 WaitlistSocial. All rights reserved.</p>
     </div>
     <div class="gradient-hov2">
       <img src="image/bott.png" alt="">
@@ -316,13 +371,13 @@
     <div class="gradient-hov3">
       <img src="image/light.png" alt="">
     </div>
-    
-   </div>
-   
-   
+
+  </div>
+
+
   <!-- fourth section end -->
 
-   <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

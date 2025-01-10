@@ -1,12 +1,12 @@
 @media (max-width: 768px) {
     .fourth-out {
         display: flex;
-        margin-top: 150px;
+        margin-top: 20px;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         position: relative;
-        z-index: 5;
+        z-index: 99;
     }
 
     .gradient-hov2 {
@@ -14,7 +14,7 @@
         width: 30%;
         right: 0%;
         bottom: 0%;
-        z-index: 2;
+        z-index: 1;
     }
 
     .gradient-hov3 {
@@ -91,14 +91,17 @@
         justify-content: center;
         align-items: center;
         gap: 0px;
+        z-index: 99;
         width: 370px;
     }
 
     .accordion {
         width: 370px;
+        z-index: 99;
     }
 
     .accordion-item {
+        z-index: 99;
         margin-bottom: 10px;
         position: relative;
         /* Ensures proper child element placement */
@@ -163,5 +166,67 @@
         transform: rotate(45deg);
     }
 
+    /* modal  */
+
+    .modal {
+        display: flex; /* Hidden by default */
+        position: absolute;
+        z-index: 55; /* Sit on top */
+        border-radius: 44px;
+        left: 0;
+        top: 15%;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        overflow: auto;
+    }
+    
+    .modal-layer{
+        background:linear-gradient(360deg, #FD6100 0%, #973A00 95.16%);
+        padding: 2px;
+        width: 340px !important;
+        height: 230px;
+        margin: 0 auto;
+        border-radius: 44px;
+    }
+    
+    .modal-content {
+       background-color: black;
+       width: 100%;
+       height: 100%;
+       border-radius: 44px;
+        margin: 15% auto;
+       
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .m-h{
+        font-family: inter;
+        font-size: 27px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    
+    .m-t{
+        font-family: inter;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.8px;
+        text-align: center;
+        
+    }
+    
+    .m-close{
+        border:1px solid #FD6100;
+        padding: 5px 30px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+    }
 
 }

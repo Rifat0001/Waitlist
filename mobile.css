@@ -110,17 +110,18 @@
     
     .desc-beginning {
         position: absolute;
-        top:65%;
+        top:72%;
         text-align: center;
-        z-index: 2;
+        z-index:  11;
         width: 100%;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0492) 0%, rgba(0, 0, 0, 0.82) 24.8%);
-padding: 20px;
+        /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.0492) 0%, rgba(0, 0, 0, 0.82) 24.8%);
+padding: 20px; */
     }
     
     .desc-beginning p {
         font-family: 'Freeman', sans-serif;
         color: #C58484;
+        z-index:  11;
         width: 100%;
         font-size: 14px;
         margin: 0 auto; /* Center the text block */

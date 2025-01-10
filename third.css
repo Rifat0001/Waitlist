@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 5;
     align-items: center;
     margin-top: 150px;
 }
@@ -10,7 +11,10 @@
 .third-section-outer {
     background-image: url(image/redbg.png);
     position: relative;
-    width: 1147px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+    z-index: 5;
     height: 740px;
     border-radius: 36px;
 
@@ -28,6 +32,7 @@
     z-index: 4;
     width: 100%;
 }
+
 .vision {
     font-family: 'Inter', sans-serif;
     font-size: 325px;
@@ -76,6 +81,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+
 .guidetitle2 {
     position: absolute;
     top: 120%;
@@ -107,12 +113,12 @@
 }
 
 .main-figure {
-    position:absolute;
+    position: absolute;
     top: 20%;
     z-index: 2;
 }
 
-.third-desc-box{
+.third-desc-box {
     position: absolute;
     top: 130%;
     width: 90%;
@@ -120,7 +126,7 @@
     justify-content: space-between;
 }
 
-.desc-left p{
+.desc-left p {
     font-family: Inria Serif;
     font-size: 20px;
     font-weight: 400;
@@ -128,9 +134,10 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    
+
 }
-.desc-right p{
+
+.desc-right p {
     font-family: Inria Serif;
     font-size: 20px;
     font-weight: 400;
@@ -138,30 +145,31 @@
     text-align: right;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    
+
 }
 
-.third-b-text{
+.third-b-text {
     width: 1050px;
     position: absolute;
     top: 170%;
 }
 
-.third-b-text p{
+.third-b-text p {
     font-family: Hanken Grotesk;
     color: #A48466;
-font-size: 18px;
-font-weight: 500;
-line-height: 25px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 
 }
 
 .readmore {
     background: linear-gradient(180deg, #F77878 -36%, #761616 104%);
-    color: #FFFFFF; /* Text color for readability */
+    color: #FFFFFF;
+    /* Text color for readability */
     font-size: 16px;
     font-weight: 500;
     padding: 3px 10px;
@@ -170,14 +178,15 @@ text-decoration-skip-ink: none;
     cursor: pointer;
 }
 
-.gradient-hov{
+.gradient-hov {
     position: absolute;
     right: 0%;
     height: 500px;
     top: 40%;
     z-index: 2;
 }
-.gradient-hov1{
+
+.gradient-hov1 {
     position: absolute;
     left: 0%;
     top: 120%;
@@ -185,7 +194,36 @@ text-decoration-skip-ink: none;
     z-index: 2;
 }
 
-.third-mobile-text{
-   display: none;
+
+.third-mobile-text {
+    display: none;
 }
 
+.read-more-border {
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    z-index: 10;
+    padding:3px;
+    border-radius: 45px;
+    background: linear-gradient(0deg, #AC5000 0%, #5F4242 110.51%);
+
+}
+
+.read-more-div{
+background-color: #1a1616;
+border-radius: 45px;
+height: 100%;
+width: 100%;
+}
+.read-more-div p{
+    font-family: Hanken Grotesk;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 34.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+color: #FFE7D0    ;
+padding: 20px;
+}

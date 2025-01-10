@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 320px;
+    margin-bottom: 150px;
 }
 
 .third-section-outer {
@@ -155,7 +156,7 @@
     width: 370px;
     display: block;
     position: absolute;
-    top: 31vh;
+    top: 33vh;
 }
 .third-mobile-text p{
     margin-top: 10px;
@@ -203,14 +204,43 @@ text-align: center;
     height: 300px;
     width: 50%;
     top: 110vh;
-    z-index: 1;
 }
 .gradient-hov1{
    position: absolute;
     right: 0%;
     height: 500px;
     top: 70vh;
-    z-index: 1;
 }
 
+.read-more-border {
+    margin: 0 auto;
+    margin-top: 16vh;
+    width: 90%;
+    z-index: 10;
+
+    height: 900px;
+    padding:3px;
+    border-radius: 45px;
+    background: linear-gradient(0deg, #AC5000 0%, #5F4242 110.51%);
+
+}
+
+.read-more-div{
+background-color: #1a1616 !important;
+border-radius: 45px;
+z-index: 10;
+height: 100%;
+width: 100%;
+}
+.read-more-div p{
+    font-family: Hanken Grotesk;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+color: #FFE7D0    ;
+padding: 20px;
+}
 }
