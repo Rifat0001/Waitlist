@@ -36,7 +36,7 @@ label{
 
 
 .modal {
-    display: flex; /* Hidden by default */
+    display: none; /* Hidden by default */
     position: absolute;
     z-index: 55; /* Sit on top */
     border-radius: 44px;

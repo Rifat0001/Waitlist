@@ -156,7 +156,7 @@
     width: 370px;
     display: block;
     position: absolute;
-    top: 33vh;
+    top: 31vh;
 }
 .third-mobile-text p{
     margin-top: 10px;
@@ -217,7 +217,6 @@ text-align: center;
     margin-top: 16vh;
     width: 90%;
     z-index: 10;
-
     height: 900px;
     padding:3px;
     border-radius: 45px;
